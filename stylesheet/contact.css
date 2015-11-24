@@ -1,0 +1,88 @@
+
+body {
+    background-color: #fbfaee;
+    font: sans-serif;
+}
+
+a {
+    color: #abc208 ;
+    text-decoration: none;
+}
+
+.container {
+    width: 800px;
+    margin: 0px auto;
+    margin-top: 75px;
+}
+
+#contact {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    float: center;
+    font-size: 130%;
+    text-align: center;
+    margin-top: 75px;
+}
+
+#pgp {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    font-size: 130%;
+    text-align: center;
+}
+
+#twitter {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    font-size: 130%;
+    text-align: center;
+}
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+}
+input[type="submit"] {
+    color: white; 
+    background: red; 
+      
+
+#mobile {
+    display: none;
+}
+
+/* @media Rule Phones */
+@media all and (max-width: 360px) {
+#computer {
+    display: none;
+    }
+
+#mobile {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    } 
+}
+
+#list {
+    line-height: 30px;
+}
+
+/* @media Rule Tablets */
+@media all and (width: 768px) {
+#computer {
+    font-size: 110%;
+}
+}
+
+/* @media Rule Huge Screen */
+@media all and (width: 1920px) {
+#computer {
+    font-size: 180%;
+    }
+}
