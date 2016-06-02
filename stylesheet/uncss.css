@@ -36,6 +36,15 @@ a {
   margin-top: 35px;
 }
 
+#back {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  float: center;
+  font-size: 130%;
+  text-align: center;
+}
+
 #space {
   display: block;
   font-family: monospace;
@@ -74,6 +83,8 @@ ul li {
   margin: 0px auto;
   float: center;
   text-align: center;
+  font-family: monospace;
+  font-size: 16px;
 }
 
 #videotag {
@@ -86,29 +97,6 @@ ul li {
   font-size: 16px;
 }
 
-/* @media Rule Phones */
-
-@media all and (max-width: 360px) {
-  #computer {
-    display: none;
-  }
-}
-
-/* @media Rule Tablets */
-
-@media all and (width: 768px) {
-  #computer {
-    font-size: 110%;
-  }
-}
-
-/* @media Rule Huge Screen */
-
-@media all and (width: 1920px) {
-  #computer {
-    font-size: 180%;
-  }
-}
 
 /*** uncss> filename: stylesheet/first_site.css ***/
 
@@ -136,7 +124,10 @@ a {
   float: center;
   font-size: 130%;
   text-align: center;
-  margin: 0;
+  margin-right: auto;
+  margin-top: auto; 
+  margin-left: auto;
+  margin-bottom: auto;
   width: 100%;
   /* position:absolute; 
     top: 50%;
@@ -146,41 +137,9 @@ a {
     */
 }
 
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
-
-/* facebook button class*/
-
-/* twitter button class*/
-
-/* google plus button class*/
-
-/* linkedin button class*/
 
 button: active + #computer {
   background: green;
-}
-
-/* @media Rule Phones */
-
-@media all and (max-width: 360px) {
-  #computer {
-    display: none;
-  }
-}
-
-@media Rule Tablets
-@media all and (width: 768px) {
-  #computer {
-    font-size: 110%;
-  }
-}
-
-/* @media Rule Huge Screen */
-
-@media all and (width: 1920px) {
-  #computer {
-    font-size: 180%;
-  }
 }
 
 /*** uncss> filename: typing_test.css ***/
@@ -229,3 +188,32 @@ http://lea.verou.me/2011/09/pure-css3-typing-animation-with-steps/
                         blink-caret 1s step-end infinite;
 }
 
+table, tr {
+    width:100%;
+    text-align: center;
+    font-size: 16px;
+    color: #abc208;
+    border: dashed;
+}
+th,td{
+    padding:2px;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* Ascii Art from ASCII Generator "smkeyboard" via www.network-science.de and ASCII Code via www.ascii-code.com
